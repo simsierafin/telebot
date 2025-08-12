@@ -1,0 +1,15 @@
+# Core Telegram bot
+python-telegram-bot==21.4
+
+# Image processing & OCR
+Pillow==10.4.0
+pytesseract==0.3.13
+
+# Email handling (IMAP)
+IMAPClient==3.0.1
+
+# Env vars (opsional, buat development lokal)
+python-dotenv==1.0.1
+
+# Production server (opsional, kalau hosting perlu)
+gunicorn==23.0.0
